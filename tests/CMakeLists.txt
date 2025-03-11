@@ -12,6 +12,8 @@ enable_testing()
 add_executable(
   tests
   ASTBuilderTests.cpp
+  ExprTests.cpp
+  InterprTests.cpp
 )
 
 target_link_libraries(tests gtest_main gmock mysym)
